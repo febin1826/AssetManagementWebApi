@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b856ea7fd48e4db0bf8a0f836189815b" Name="Diagram1">
+        <EntityTypeShape EntityType="assetMVCEFDBModel.asset_def" Width="1.5" PointX="3" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="assetMVCEFDBModel.asset_master" Width="1.5" PointX="5.25" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="assetMVCEFDBModel.asset_type" Width="1.5" PointX="0.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="assetMVCEFDBModel.logintbl" Width="1.5" PointX="5.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="assetMVCEFDBModel.purchase_order" Width="1.5" PointX="8.25" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="assetMVCEFDBModel.usertbl" Width="1.5" PointX="8" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="assetMVCEFDBModel.vendor_creation" Width="1.5" PointX="3" PointY="7.25" IsExpanded="true" />
+        <AssociationConnector Association="assetMVCEFDBModel.FK__asset_def__ad_ty__173876EA" ManuallyRouted="false" />
+        <AssociationConnector Association="assetMVCEFDBModel.FK__asset_mas__am_ad__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="assetMVCEFDBModel.FK__purchase___pd_ad__25869641" ManuallyRouted="false" />
+        <AssociationConnector Association="assetMVCEFDBModel.FK__asset_mas__am_at__2A4B4B5E" ManuallyRouted="false" />
+        <AssociationConnector Association="assetMVCEFDBModel.FK__asset_mas__am_ma__2B3F6F97" ManuallyRouted="false" />
+        <AssociationConnector Association="assetMVCEFDBModel.FK__purchase___pd_ty__267ABA7A" ManuallyRouted="false" />
+        <AssociationConnector Association="assetMVCEFDBModel.FK__vendor_cr__vd_at__1A14E395" ManuallyRouted="false" />
+        <AssociationConnector Association="assetMVCEFDBModel.FK__usertbl__u_id__1273C1CD" ManuallyRouted="false" />
+        <AssociationConnector Association="assetMVCEFDBModel.FK__purchase___pd_ve__276EDEB3" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
